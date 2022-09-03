@@ -36,7 +36,7 @@ public class Length implements Comparable<Length> {
 	public Length convert(LengthUnit unit) {
 		return new Length(getAmountInMM(this) / unit.value, unit);
 	}
-	@Override
+	@Override 
 	/**
 	 * returns string with amount and length unit pinned to amount with no space
 	 * Example: 20M (string expression of Length object designed 20 meters)
